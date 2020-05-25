@@ -9,7 +9,7 @@ source = requests.get(url,headers=headers).text
 soup = BeautifulSoup(source,'lxml')
 
 #Create a csv file
-csv_file = open('product_list.csv','w')
+csv_file = open('list2.csv','w')
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['list'])
 
